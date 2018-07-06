@@ -46,7 +46,8 @@ table.content {
 
 table.contact {
   background-color: #ffffff;
-  text-align: center; }
+  text-align: center;
+  padding-top: 20px; }
   table.contact ul {
     list-style: none;
     width: fit-content;
