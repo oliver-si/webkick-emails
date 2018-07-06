@@ -1,0 +1,51 @@
+html, body, ul, ol {
+  margin: 0;
+  padding: 0;
+  font-family:Helvetica, Arial, sans-serif;
+}
+h1, h2 {font-weight:normal; padding:0; margin:0;}
+
+body {
+  font: 100% Helvetica, sans-serif;
+  background-color: #efefef;
+}
+
+div.wrapper {margin:20px auto 20px auto; max-width:600px;
+  background-color:#ff00ff;}
+
+table {width:100%; background-color:#8F51C8;
+  border:2px solid #ff0000;}
+
+table.header {height:240px; text-align:center; background-image:url('../imgs/email-header.png'); background-size:cover;
+  h1 {color:#ffffff; font-size:2em; line-height:2em;}}
+
+table.content {padding:20px 100px; background-color:#ffffff;
+  h2 {color:#24195D; font-size:1.4em; line-height:1.4em}
+  p {color:#000000; font-size:0.8em; line-height:1.2em;}
+}
+table.contact {background-color:#ffffff; text-align:center;
+  ul {list-style:none; width: fit-content; display:inline-block; margin:20px 0; border:2px solid #ff00ff;
+    li {float:left; margin:5px 6px;
+      img {width:24px;}
+    }
+  }
+}
+
+.button{
+  font-size:1em; padding: 10px 20px; text-decoration:none; display:inline-block;color: #FFFFFF;
+  background-color: #F76B1C; background-image: -webkit-gradient(linear, left top, left bottom, from(#F76B1C), to(#FAD961));
+  background-image: -webkit-linear-gradient(left, #F76B1C, #FAD961);
+  background-image: -moz-linear-gradient(left, #F76B1C, #FAD961);
+  background-image: -ms-linear-gradient(left, #F76B1C, #FAD961);
+  background-image: -o-linear-gradient(left, #F76B1C, #FAD961);
+  background-image: linear-gradient(to right, #F76B1C, #FAD961);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#F76B1C, endColorstr=#FAD961);
+}
+
+.button:hover{
+  background-color: #d85308; background-image: -webkit-gradient(linear, left top, left bottom, from(#d85308), to(#f8cd30));
+  background-image: -webkit-linear-gradient(left, #d85308, #f8cd30);
+  background-image: -moz-linear-gradient(left, #d85308, #f8cd30);
+  background-image: -ms-linear-gradient(left, #d85308, #f8cd30);
+  background-image: -o-linear-gradient(left, #d85308, #f8cd30);
+  background-image: linear-gradient(to right, #d85308, #f8cd30);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#d85308, endColorstr=#f8cd30);
+}
