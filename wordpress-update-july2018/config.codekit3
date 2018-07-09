@@ -59,8 +59,19 @@
 		"oA": 0,
 		"oAP": "\/imgs\/Twitter_Social_Icon_Rounded_Square_Color.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/imgs\/webkick-logo.png": {
+		"ft": 32768,
+		"iS": 1693,
+		"oA": 0,
+		"oAP": "\/imgs\/webkick-logo.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
